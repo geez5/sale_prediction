@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 from datetime import timedelta
-from src.data_generator import generate_sample_data
-from src.model import SalesPredictor
-from src.visualization import (
+from data_generator import generate_sample_data
+from model import SalesPredictor
+from svisualization import (
     plot_historical_vs_predicted,
     plot_seasonal_pattern,
     plot_components
